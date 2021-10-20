@@ -5,7 +5,7 @@ from datetime import datetime
 currency = "USD"
 
 api_key = [
-    "95551983-47f7-46d6-b224-63f7fddb43e8"
+    "Insert your key"
 ]
 
 global_url = "https://pro-api.coinmarketcap.com/v1/global-metrics/quotes/latest?CMC_PRO_API_KEY="+api_key[0]+"&convert="+currency
