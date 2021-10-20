@@ -12,7 +12,7 @@ def searchData(arr, x):
 convert = "USD"
 
 api_key = [
-    "95551983-47f7-46d6-b224-63f7fddb43e8"
+    "Insert your key"
 ]
 
 # Formatting URL: API key + API endpoint
