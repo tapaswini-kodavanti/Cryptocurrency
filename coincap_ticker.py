@@ -2,7 +2,7 @@ import json
 import requests
 
 api_key = [
-    '95551983-47f7-46d6-b224-63f7fddb43e8'
+    "Insert your key"
 ]
 
 while(True):
