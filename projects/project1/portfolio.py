@@ -43,8 +43,6 @@ with open("my_portfolio.csv", "r") as csv_file:
         request = requests.get(quote_url, headers = headers)
         results = request.json()
 
-        # print(json.dumps(results, sort_keys = True, indent = 4))
-
         currency = results["data"][symbol]
 
         # Storing variables of the table data
