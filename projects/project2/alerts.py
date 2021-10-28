@@ -33,15 +33,12 @@ while True:
             symbol = line[0]
             amount = line[1]
 
-            # print("SYMBOL: " + symbol)
             quote_url = base_url + "/v1/cryptocurrency/quotes/latest?convert=" + local_currency + "&symbol=" + symbol
 
             request = requests.get(quote_url, headers = headers)
             results = request.json()
-            # print(json.dumps(results, sort_keys = True, indent = 4))
 
             currency = results["data"][symbol]
-            # print(json.dumps(currency, sort_keys = True, indent = 4))
             name = currency["name"]
             price = currency["quote"][local_currency]["price"]
 
