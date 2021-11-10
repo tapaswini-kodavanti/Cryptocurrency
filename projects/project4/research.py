@@ -9,7 +9,7 @@ locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
 local_currency = "USD"
 local_symbol = "$"
 
-api_key = '95551983-47f7-46d6-b224-63f7fddb43e8'
+api_key = 'Your API Key Here'
 headers = {'X-CMC_PRO_API_KEY': api_key}
 
 base_url = 'https://pro-api.coinmarketcap.com'
