@@ -25,7 +25,9 @@ data = results["data"]
 total_market_cap = data["quote"][local_currency]["total_market_cap"]
 total_market_cap_string = "{:,}".format(total_market_cap)
 
-# What percent of each of these further categoies are made by crypto (EDIT!!)
+# (Last 3 Columns)
+# Display the value of that cryptocurrency if the global market cap reaches the level designated to that columns
+# For example, what would the price of Bitcoin be if the global market cap was $10.9 trillion, the gold price level?
 table = PrettyTable(['Name', 'Ticker', '% of total global cap', 'Price', '10.9T (Gold)', '35.2T (Narrow Money)', '89.5T (Stock Market)'])
 
 listings_url = base_url + "/v1/cryptocurrency/listings/latest?convert=" + local_currency
